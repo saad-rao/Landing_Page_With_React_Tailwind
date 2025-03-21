@@ -8,11 +8,16 @@ const About = () =>{
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Text Section */}
         <div className="mb-8 animate__animated animate__fadeIn animate__delay-1s">
-          <p className="text-[25px] text-teal-500 font-semibold mb-6">About Us</p>
-          <h2 className="text-[45px] md:text-4xl font-bold text-gray-800 mb-6">
+          <p className="text-[25px] text-teal-500 font-semibold mb-6" 
+          data-aos="fade-down"
+          data-aos-delay="100">About Us</p>
+          <h2 className="text-[45px] md:text-4xl font-bold text-gray-800 mb-6" data-aos="fade-down"
+          data-aos-delay="200">
             Welcome To Our Clinic
           </h2>
-          <p className="text-[18px] text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-[18px] text-gray-600 max-w-3xl mx-auto leading-relaxed" 
+          data-aos="fade-up"
+          data-aos-delay="300">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -24,7 +29,8 @@ const About = () =>{
 
         {/* Button Section */}
         <div className="mb-12 animate__animated animate__fadeIn animate__delay-2s">
-          <button className="bg-teal-500 text-white font-semibold py-3 px-8 rounded-full hover:bg-teal-600 hover:scale-105 transition-all duration-300">
+          <button className="bg-teal-500 text-white font-semibold py-3 px-8 rounded-full hover:bg-teal-600 hover:scale-105 transition-all duration-300" data-aos="zoom-in"
+          data-aos-delay="50">
             Learn More
           </button>
         </div>

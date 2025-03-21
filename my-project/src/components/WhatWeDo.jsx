@@ -141,15 +141,18 @@ const WhatWeDo = () =>{
       <>
       <div className="py-16 bg-gray-50 relative overflow-hidden">
         <div className="text-center mb-12 animate__animated animate__fadeIn animate__delay-1s ">
-          <p className="text-[25px] text-teal-500 font-semibold mb-4">What We Do</p>
-          <h2 className="text-[45px] md:text-4xl font-bold text-gray-800 mb-5"> What We Provide for Your Health</h2>
-          <p className="text-[16px] text-gray-600 max-w-2xl mx-auto">
+          <p className="text-[25px] text-teal-500 font-semibold mb-4"data-aos="fade-down"
+          data-aos-delay="100">What We Do</p>
+          <h2 className="text-[45px] md:text-4xl font-bold text-gray-800 mb-5" data-aos="fade-down"
+          data-aos-delay="200"> What We Provide for Your Health</h2>
+          <p className="text-[16px] text-gray-600 max-w-2xl mx-auto" data-aos="fade-up"
+          data-aos-delay="300">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
           dinonumy <br/> eirmod tempor invidunt ut labore et dolore magna
           </p>
           </div>
         
-              <div className="flex justify-center mb-12">
+              <div className="flex justify-center mb-12" data-aos="fade-right" data-aos-delay="200">
                   <img src= {graphImg} alt="graph image" className="w-4/5 mx-auto" />
               </div>
       
@@ -157,28 +160,28 @@ const WhatWeDo = () =>{
               <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
           <div className="flex flex-col items-center text-center animate__animated animate__fadeInUp animate__delay-2s">
             <div className="w-16 h-16 rounded-full bg-teal-100 flex items-center justify-center mb-4 hover:scale-110 transition-transform">
-              <img src={speacialistImg} alt="specialist doctor" className="w-8 h-8" />
+              <img src={speacialistImg} alt="specialist doctor" className="w-8 h-8" data-aos="fade-right" />
             </div>
             <h5 className="text-lg font-semibold text-gray-800">Specialist Doctors</h5>
           </div>
 
           <div className="flex flex-col items-center text-center animate__animated animate__fadeInUp animate__delay-3s">
             <div className="w-16 h-16 rounded-full bg-teal-100 flex items-center justify-center mb-4 hover:scale-110 transition-transform">
-              <img src={frequentImg} alt="frequent" className="w-8 h-8" />
+              <img src={frequentImg} alt="frequent" className="w-8 h-8" data-aos="fade-down" />
             </div>
             <h5 className="text-lg font-semibold text-gray-800">Frequent Visits</h5>
           </div>
 
           <div className="flex flex-col items-center text-center animate__animated animate__fadeInUp animate__delay-4s">
             <div className="w-16 h-16 rounded-full bg-teal-100 flex items-center justify-center mb-4 hover:scale-110 transition-transform">
-              <img src={cordialImg} alt="cordial" className="w-8 h-8" />
+              <img src={cordialImg} alt="cordial" className="w-8 h-8" data-aos="fade-left" />
             </div>
             <h5 className="text-lg font-semibold text-gray-800">Cordial Administration</h5>
           </div>
 
           <div className="flex flex-col items-center text-center animate__animated animate__fadeInUp animate__delay-5s">
             <div className="w-16 h-16 rounded-full bg-teal-100 flex items-center justify-center mb-4 hover:scale-110 transition-transform">
-              <img src={pharmacyImg} alt="pharmacy img" className="w-8 h-8" />
+              <img src={pharmacyImg} alt="pharmacy img" className="w-8 h-8" data-aos="fade-up "/>
             </div>
             <h5 className="text-lg font-semibold text-gray-800">Specialized Pharmacy</h5>
           </div>

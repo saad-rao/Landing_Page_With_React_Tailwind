@@ -13,12 +13,16 @@ const Services = () => {
            <div className="max-w-6xl mx-auto px-4 text-center">
              {/* Text Section */}
              <div className="mb-8 animate__animated animate__fadeIn animate__delay-1s">
-               <p className="text-[25px] text-teal-500 font-semibold mb-6">Services</p>
-               <h2 className="text-[45px] md:text-4xl font-bold text-gray-800 mb-6">
+               <p className="text-[25px] text-teal-500 font-semibold mb-6" data-aos="fade-down"
+          data-aos-delay="100">Services</p>
+               <h2 className="text-[45px] md:text-4xl font-bold text-gray-800 mb-6"  data-aos="fade-down"
+          data-aos-delay="200">
                Our Healthcare Services
 
                </h2>
-               <p className="text-[18px] text-gray-600 max-w-3xl mx-auto leading-relaxed">
+               <p className="text-[18px] text-gray-600 max-w-3xl mx-auto leading-relaxed"
+                data-aos="fade-up"
+                data-aos-delay="300">
                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
                  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
                  erat, sed diam voluptua.
@@ -34,7 +38,10 @@ const Services = () => {
          <div className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
         {/* Cardiology */}
-        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group">
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group" 
+        data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <div className="mb-4">
             <img src={cardio} alt="cardiology" className="w-12 h-12 mx-auto group-hover:filter group-hover:brightness-0 group-hover:invert object-contain" />
           </div>
@@ -57,7 +64,9 @@ const Services = () => {
         </div>
 
         {/* Neurology */}
-        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group">
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group"
+        data-aos="fade-up"
+        data-aos-delay="200">
           <div className="mb-4">
             <img src={neuro} alt="neurology" className="w-12 h-12 mx-auto group-hover:filter object-contain group-hover:brightness-0 group-hover:invert" />
           </div>
@@ -80,7 +89,10 @@ const Services = () => {
         </div>
 
         {/* Gastroenterology */}
-        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group">
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group"
+        data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <div className="mb-4">
             <img src={gasteroiology} alt="gastroenterology" className="w-12 h-12 mx-auto object-contain group-hover:filter group-hover:brightness-0 group-hover:invert" />
           </div>
@@ -103,7 +115,9 @@ const Services = () => {
         </div>
 
         {/* Orthopedics */}
-        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group">
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group"
+        data-aos="fade-up"
+          data-aos-delay="400">
           <div className="mb-4">
             <img src={orthopedics} alt="orthopedics" className="w-12 h-12 mx-auto object-contain group-hover:filter group-hover:brightness-0 group-hover:invert" />
           </div>
@@ -126,7 +140,9 @@ const Services = () => {
         </div>
 
         {/* Gynecology */}
-        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group">
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all duration-300 group"
+        data-aos="fade-up"
+        data-aos-delay="500">
           <div className="mb-4">
             <img src={gynecology} alt="gynecology" className="w-12 h-12 object-contain mx-auto group-hover:filter group-hover:brightness-0 group-hover:invert" />
           </div>
@@ -149,7 +165,9 @@ const Services = () => {
         </div>
 
         {/* Dental Surgery */}
-        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all1 duration-300 group">
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:bg-teal-500 hover:text-white transition-all1 duration-300 group"
+        data-aos="fade-up"
+        data-aos-delay="600">
           <div className="mb-4">
             <img src={dental} alt="dental surgery" className="w-12 h-12 mx-auto object-contain group-hover:filter group-hover:brightness-0 group-hover:invert" />
           </div>

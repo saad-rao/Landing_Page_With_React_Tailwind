@@ -22,7 +22,7 @@ const Hero = () => {
       description:
         "Lorem ipsum dolor sit amet, consectetur sadipscing elitir, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consectetur sadipscing elitir.",
       buttonText: "Make Appointment",
-      backgroundImage: "https://preview.uideck.com/items/medic/assets/img/slider/slider-2.jpg", // Replace with actual image
+      backgroundImage: "https://preview.uideck.com/items/medic/assets/img/slider/slider-3.jpg", // Replace with actual image
     },
   ];
 
@@ -59,7 +59,7 @@ const Hero = () => {
           }}
         >
           {/* Overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-teal-500/70 to-teal-500/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-teal-500/70"></div>
 
           {/* Slide Content */}
           <div className="relative z-10 flex items-center justify-start h-full px-4 md:px-16">
